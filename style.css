@@ -1,0 +1,28 @@
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,#1d2671,#c33764);
+    font-family: Arial,sans-serif;
+}
+.container{
+    backdrop-filter: 10px;
+    background:rgba(255,255,255,0.1);
+    padding:30px 60px;
+    border-radius: 15px;
+    text-align: center;
+    color:white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+#clock{
+    font-size:50px;
+    letter-spacing: 3px;
+    text-shadow: 0 0 10px rgba(255,255,255,0.8),
+    0 0 20px rgba(255,255,255,0.5);
+}
+#date{
+    margin-top: 10px;
+    font-size: 18px;
+}
